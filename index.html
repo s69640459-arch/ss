@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+
+<meta charset="UTF-8">
+<title>Friendship Story</title>
+
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:tahoma;
+}
+
+
+html{
+scroll-behavior:smooth;
+}
+
+
+body{
+
+background:
+linear-gradient(135deg,#141e30,#243b55);
+
+color:white;
+overflow-x:hidden;
+
+}
+
+
+
+/* ستاره های پس زمینه */
+
+.star{
+
+position:fixed;
+width:8px;
+height:8px;
+background:white;
+border-radius:50%;
+opacity:.6;
+
+animation:stars 6s infinite;
+
+}
+
+
+@keyframes stars{
+
+from{
+transform:translateY(100vh);
+}
+
+to{
+transform:translateY(-100vh);
+}
+
+}
+
+
+
+
+
+section{
+
+min-height:100vh;
+padding:50px 20px;
+
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+
+}
+
+
+
+
+.logo{
+
+width:170px;
+height:170px;
+
+background:linear-gradient(45deg,#ff9966,#ff5e62);
+
+border-radius:50%;
+
+display:flex;
+align-items:center;
+justify-content:center;
+
+font-size:80px;
+
+box-shadow:
+0 0 40px #ff9966;
+
+animation:float 3s infinite;
+
+}
+
+
+
+@keyframes float{
+
+50%{
+
+transform:translateY(-25px) rotate(5deg);
+
+}
+
+}
+
+
+
+
+h1{
+
+font-size:45px;
+margin:35px;
+
+animation:title 2s;
+
+}
+
+
+@keyframes title{
+
+from{
+
+opacity:0;
+transform:scale(.5);
+
+}
+
+to{
+
+opacity:1;
+transform:scale(1);
+
+}
+
+}
+
+
+
+
+
+.card{
+
+width:80%;
+max-width:850px;
+
+background:rgba(255,255,255,.15);
+
+backdrop-filter:blur(15px);
+
+border-radius:35px;
+
+padding:40px;
+
+margin:30px;
+
+box-shadow:0 20px 50px #0005;
+
+
+font-size:23px;
+line-height:2.2;
+
+
+animation:card 2s;
+
+}
+
+
+
+@keyframes card{
+
+from{
+
+opacity:0;
+transform:translateY(80px);
+
+}
+
+
+to{
+
+opacity:1;
+transform:translateY(0);
+
+}
+
+}
+
+
+
+
+.boxes{
+
+display:flex;
+gap:20px;
+flex-wrap:wrap;
+justify-content:center;
+
+}
+
+
+.small{
+
+width:250px;
+height:180px;
+
+background:#ffffff22;
+
+border-radius:25px;
+
+padding:25px;
+
+font-size:20px;
+
+animation:float 4s infinite;
+
+}
+
+
+
+
+button{
+
+padding:15px 35px;
+
+border:none;
+
+border-radius:30px;
+
+font-size:20px;
+
+cursor:pointer;
+
+}
+
+
+
+</style>
+
+</head>
+
+
+
+<body>
+
+
+
+<div class="star" style="left:10%;animation-delay:1s"></div>
+<div class="star" style="left:40%;animation-delay:3s"></div>
+<div class="star" style="left:75%;animation-delay:5s"></div>
+<div class="star" style="left:90%;animation-delay:2s"></div>
+
+
+
+
+<section>
+
+
+<div class="logo">
+🤝
+</div>
+
+
+<h1>
+داستان دوستی سپهر و سجاد
+</h1>
+
+
+<div class="card">
+
+
+دوستی سپهر و سجاد از کلاس پنجم شروع شد...
+
+<br><br>
+
+آن ها خیلی اتفاقی به کمک معلم کلاس پنجم
+در یک کلاس کنار هم نشستند.
+
+<br><br>
+
+شاید آن روز فکر نمی‌کردند که یک اتفاق ساده،
+باعث شروع یک دوستی قشنگ شود.
+
+<br><br>
+
+اما بعضی از بهترین خاطره‌ها از اتفاق‌های کوچک شروع می‌شوند.
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+<section>
+
+
+<div class="logo">
+🎮
+</div>
+
+
+<h1>
+روزهای بازی و خنده
+</h1>
+
+
+<div class="card">
+
+
+سپهر و سجاد تقریباً هر روز با هم بازی می‌کنند.
+
+<br><br>
+
+خیلی کم پیش می‌آید که یک روز بدون بازی کردن بگذرد.
+
+<br><br>
+
+بعضی روزها کلی می‌خندند،
+بعضی روزها رقابت می‌کنند،
+و بعضی وقت‌ها هم سر چیزهای کوچک با هم بحث می‌کنند.
+
+<br><br>
+
+ولی این دوستی همیشه قوی‌تر از یک ناراحتی کوتاه است.
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<section>
+
+
+<div class="logo">
+❤️
+</div>
+
+
+<h1>
+قهرهای کوتاه، آشتی‌های سریع
+</h1>
+
+
+
+<div class="card">
+
+
+مثل همه دوست‌های واقعی،
+گاهی اوقات ممکن است با هم قهر کنند.
+
+<br><br>
+
+اما جالب اینجاست که ناراحتی‌ها زیاد دوام نمی‌آورند.
+
+<br><br>
+
+چند دقیقه یا کمی بعد دوباره حرف می‌زنند،
+می‌خندند و همه چیز مثل قبل می‌شود.
+
+<br><br>
+
+چون یک دوستی واقعی ارزشمندتر از یک دعوای کوچک است.
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+<section>
+
+
+<div class="logo">
+⭐
+</div>
+
+
+<h1>
+خاطراتی که ادامه دارند...
+</h1>
+
+
+
+<div class="boxes">
+
+
+<div class="small">
+
+📚
+
+<br>
+
+شروع از کلاس پنجم
+
+</div>
+
+
+<div class="small">
+
+🎮
+
+<br>
+
+بازی‌های روزانه
+
+</div>
+
+
+<div class="small">
+
+😂
+
+<br>
+
+خنده و خاطره
+
+</div>
+
+
+</div>
+
+
+
+<div class="card">
+
+
+این داستان هنوز تمام نشده...
+
+<br><br>
+
+هر روز یک صفحه جدید به این دوستی اضافه می‌شود.
+
+<br><br>
+
+شاید سال‌ها بعد وقتی این صفحه را ببینند،
+یاد روزهایی بیفتند که یک دوستی ساده
+از یک کلاس شروع شد.
+
+</div>
+
+
+
+</section>
+
+
+
+
+</body>
+</html>
